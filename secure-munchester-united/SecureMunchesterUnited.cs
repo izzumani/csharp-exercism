@@ -4,7 +4,24 @@ public class SecurityPassMaker
 {
     public string GetDisplayName(TeamSupport support)
     {
-        throw new NotImplementedException($"Please implement the SecurityPassMaker.GetDisplayName() method");
+        if (support.GetType()== typeof(Staff) || (support.GetType().BaseType == typeof(Staff) && support.GetType() != typeof(Security)))
+        {
+            return support.Title;
+        }
+        if (support.GetType() == typeof(Security))
+        {
+            return $"{support.Title} Priority Personnel";
+        }
+
+        if (support.GetType().BaseType == typeof(Security))
+        {
+            return $"{support.Title}";
+        }
+
+        else
+        {
+            return "Too Important for a Security Pass";
+        }
     }
 }
 
