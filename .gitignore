@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/calculator-conundrum/.exercism
+/calculator-conundrum/.vs/CalculatorConundrum
+/calculator-conundrum/bin/Debug/net8.0
+/calculator-conundrum/obj
