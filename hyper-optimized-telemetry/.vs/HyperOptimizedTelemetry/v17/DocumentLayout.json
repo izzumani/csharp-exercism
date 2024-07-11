@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Exercism\\csharp\\hyper-optimized-telemetry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD7779-DD6C-45AF-8D1B-B371E59E1309}|HyperOptimizedTelemetry.csproj|d:\\projects\\exercism\\csharp\\hyper-optimized-telemetry\\hyperoptimizedtelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD7779-DD6C-45AF-8D1B-B371E59E1309}|HyperOptimizedTelemetry.csproj|solutionrelative:hyperoptimizedtelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABD7779-DD6C-45AF-8D1B-B371E59E1309}|HyperOptimizedTelemetry.csproj|d:\\projects\\exercism\\csharp\\hyper-optimized-telemetry\\hyperoptimizedtelemetrytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABD7779-DD6C-45AF-8D1B-B371E59E1309}|HyperOptimizedTelemetry.csproj|solutionrelative:hyperoptimizedtelemetrytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HyperOptimizedTelemetryTests.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\hyper-optimized-telemetry\\HyperOptimizedTelemetryTests.cs",
+              "RelativeDocumentMoniker": "HyperOptimizedTelemetryTests.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\hyper-optimized-telemetry\\HyperOptimizedTelemetryTests.cs",
+              "RelativeToolTip": "HyperOptimizedTelemetryTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T23:37:26.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HyperOptimizedTelemetry.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\hyper-optimized-telemetry\\HyperOptimizedTelemetry.cs",
+              "RelativeDocumentMoniker": "HyperOptimizedTelemetry.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\hyper-optimized-telemetry\\HyperOptimizedTelemetry.cs",
+              "RelativeToolTip": "HyperOptimizedTelemetry.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T23:37:09.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

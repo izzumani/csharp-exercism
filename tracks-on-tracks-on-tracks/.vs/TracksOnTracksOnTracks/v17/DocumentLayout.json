@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Exercism\\csharp\\tracks-on-tracks-on-tracks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{216357EA-5F30-4FD1-AED1-3BE5C2CEF37B}|TracksOnTracksOnTracks.csproj|d:\\projects\\exercism\\csharp\\tracks-on-tracks-on-tracks\\tracksontracksontracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216357EA-5F30-4FD1-AED1-3BE5C2CEF37B}|TracksOnTracksOnTracks.csproj|solutionrelative:tracksontracksontracks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216357EA-5F30-4FD1-AED1-3BE5C2CEF37B}|TracksOnTracksOnTracks.csproj|d:\\projects\\exercism\\csharp\\tracks-on-tracks-on-tracks\\tracksontracksontrackstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216357EA-5F30-4FD1-AED1-3BE5C2CEF37B}|TracksOnTracksOnTracks.csproj|solutionrelative:tracksontracksontrackstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TracksOnTracksOnTracksTests.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\tracks-on-tracks-on-tracks\\TracksOnTracksOnTracksTests.cs",
+              "RelativeDocumentMoniker": "TracksOnTracksOnTracksTests.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\tracks-on-tracks-on-tracks\\TracksOnTracksOnTracksTests.cs",
+              "RelativeToolTip": "TracksOnTracksOnTracksTests.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:05:16.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TracksOnTracksOnTracks.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\tracks-on-tracks-on-tracks\\TracksOnTracksOnTracks.cs",
+              "RelativeDocumentMoniker": "TracksOnTracksOnTracks.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\tracks-on-tracks-on-tracks\\TracksOnTracksOnTracks.cs",
+              "RelativeToolTip": "TracksOnTracksOnTracks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T18:24:23.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

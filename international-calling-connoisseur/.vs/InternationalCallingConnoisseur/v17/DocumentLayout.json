@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Exercism\\csharp\\international-calling-connoisseur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B833AA59-E18F-4F6F-B2BF-F87BCDBF532F}|InternationalCallingConnoisseur.csproj|d:\\projects\\exercism\\csharp\\international-calling-connoisseur\\internationalcallingconnoisseurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B833AA59-E18F-4F6F-B2BF-F87BCDBF532F}|InternationalCallingConnoisseur.csproj|solutionrelative:internationalcallingconnoisseurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B833AA59-E18F-4F6F-B2BF-F87BCDBF532F}|InternationalCallingConnoisseur.csproj|d:\\projects\\exercism\\csharp\\international-calling-connoisseur\\internationalcallingconnoisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B833AA59-E18F-4F6F-B2BF-F87BCDBF532F}|InternationalCallingConnoisseur.csproj|solutionrelative:internationalcallingconnoisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InternationalCallingConnoisseurTests.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseurTests.cs",
+              "RelativeDocumentMoniker": "InternationalCallingConnoisseurTests.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseurTests.cs",
+              "RelativeToolTip": "InternationalCallingConnoisseurTests.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAewJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:52:47.353Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InternationalCallingConnoisseur.cs",
+              "DocumentMoniker": "D:\\Projects\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.cs",
+              "RelativeDocumentMoniker": "InternationalCallingConnoisseur.cs",
+              "ToolTip": "D:\\Projects\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.cs",
+              "RelativeToolTip": "InternationalCallingConnoisseur.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAADgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:52:42.878Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
