@@ -1,54 +1,32 @@
 using Newtonsoft.Json.Linq;
 using System;
+using System.Linq;
 using System.Text;
 
 public static class TelemetryBuffer
 {
     public static byte[] ToBuffer(long reading)
     {
-
-        
-        byte[] _resultBytes = new byte[9];
-
-        if (reading >= 4_294_967_296  && reading <= 9_223_372_036_854_775_807)
+        var bytes = reading switch
         {
-            _resultBytes[0] = 8;
-            BitConverter.GetBytes((ulong)reading).CopyTo(_resultBytes, 1);
-        }
-        else if (reading >= 2_147_483_648  && reading  <= 4_294_967_295)
-        {
-            _resultBytes[0] = 4;
-            BitConverter.GetBytes((uint)reading).CopyTo(_resultBytes, 1);
-        }
-        else if(reading >= 65_536 && reading<= 2_147_483_647)
-        {
-            _resultBytes[0] = 256-4;
-            BitConverter.GetBytes((int)reading).CopyTo(_resultBytes, 1);
-        }
-        else if (reading >= -32_768 && reading <= -1)
-        {
-            _resultBytes[0] = 256 - 2;
-            BitConverter.GetBytes((short)reading).CopyTo(_resultBytes, 1);
-        }
-        else if (reading >= -2_147_483_648 && reading <= -32_769)
-        {
-            _resultBytes[0] = 256 - 4;
-            BitConverter.GetBytes((int)reading).CopyTo(_resultBytes, 1);
-        }
-        if (reading >= -9_223_372_036_854_775_808 && reading <= -2_147_483_649)
-        {
-            _resultBytes[0] = 256-8;
-            BitConverter.GetBytes((long)reading).CopyTo(_resultBytes, 1);
-        }
+            < Int32.MinValue => BitConverter.GetBytes((long)reading).Prepend((byte)(256 - 8)),
+            < Int16.MinValue => BitConverter.GetBytes((int)reading).Prepend((byte)(256 - 4)),
+            < UInt16.MinValue => BitConverter.GetBytes((short)reading).Prepend((byte)(256 - 2)),
+            <= UInt16.MaxValue => BitConverter.GetBytes((ushort)reading).Prepend((byte)2),
+            <= Int32.MaxValue => BitConverter.GetBytes((int)reading).Prepend((byte)(256 - 4)),
+            <= UInt32.MaxValue => BitConverter.GetBytes((uint)reading).Prepend((byte)4),
+            _ => BitConverter.GetBytes((long)reading).Prepend((byte)(256 - 8)),
+        };
 
 
-
-
-        return _resultBytes;
+        return bytes.Concat(new byte[9 - bytes.Count()]).ToArray();
     }
 
-    public static long FromBuffer(byte[] buffer)
+    public static long FromBuffer(byte[] buffer) => buffer[0] switch
     {
-        throw new NotImplementedException("Please implement the static TelemetryBuffer.FromBuffer() method");
-    }
+        256 - 8 or 4 or 2 => BitConverter.ToInt64(buffer, 1),
+        256 - 4 => BitConverter.ToInt32(buffer, 1),
+        256 - 2 => BitConverter.ToInt16(buffer, 1),
+        _ => 0,
+    };
 }

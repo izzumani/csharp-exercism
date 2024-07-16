@@ -98,3 +98,4 @@ D:\Projects\Exercism\csharp\hyper-optimized-telemetry\obj\Debug\net8.0\refint\Hy
 D:\Projects\Exercism\csharp\hyper-optimized-telemetry\obj\Debug\net8.0\HyperOptimizedTelemetry.pdb
 D:\Projects\Exercism\csharp\hyper-optimized-telemetry\obj\Debug\net8.0\HyperOptimizedTelemetry.genruntimeconfig.cache
 D:\Projects\Exercism\csharp\hyper-optimized-telemetry\obj\Debug\net8.0\ref\HyperOptimizedTelemetry.dll
+D:\Projects\Exercism\csharp\hyper-optimized-telemetry\obj\Debug\net8.0\HyperOptimizedTelemetry.sourcelink.json
