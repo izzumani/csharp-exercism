@@ -3,32 +3,14 @@ using System.Collections.Generic;
 
 public class Authenticator
 {
-    private Identity _admin = new();
+    
     private IDictionary<string, Identity> _developers;
-    public Identity Admin { get { return _admin; } }
-
-    // TODO: Implement the Authenticator.Developers property
+    public Identity Admin { get; }=new Identity();
+    
     public IDictionary<string, Identity> Developers {  get{ return _developers; } }
 
     public Authenticator ()
     {
-        _admin = new Identity()
-        {
-            Email = "admin@ex.ism",
-            FacialFeatures = new FacialFeatures()
-            {
-                EyeColor = "green",
-                PhiltrumWidth = 0.9m
-            },
-            NameAndAddress = new List<string>
-                                                    {
-                                                        { "Chanakya"},
-                                                        { "Mumbai"},
-                                                        {"India" }
-                                                    }
-        };
-
-
         _developers = new Dictionary<string, Identity>() 
         {
             {
@@ -84,7 +66,7 @@ public class FacialFeatures
 //**** please do not modify the Identity class ****
 public class Identity
 {
-    public string Email { get; set; }
-    public FacialFeatures FacialFeatures { get; set; }
-    public IList<string> NameAndAddress { get; set; }
+    public string Email { get; set; } = "admin@ex.ism";
+    public FacialFeatures FacialFeatures { get; set; } = new(){EyeColor = "green",PhiltrumWidth = 0.9m};
+    public IList<string> NameAndAddress { get; set; } = new List<string>{{ "Chanakya"},{ "Mumbai"},{"India" }};
 }
