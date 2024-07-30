@@ -23,12 +23,17 @@ public static class NucleotideCount
 
         foreach (char _char in chars)
         {
-            var _testCharEnum = Enum.Parse(typeof(NucleotideEnum), Char.ToString(_char));
-            var convertedChar = Convert.ToChar(_testCharEnum.ToString());
+            //var _testCharEnum = Enum.Parse(typeof(NucleotideEnum), Char.ToString(_char));
+            //var convertedChar = Convert.ToChar(_testCharEnum.ToString());
 
-            if (nucleotideDict.TryGetValue(Convert.ToChar(_testCharEnum.ToString()), out int value))
+            //if (nucleotideDict.TryGetValue(Convert.ToChar(_testCharEnum.ToString()), out int value))
+            if (nucleotideDict.TryGetValue(_char, out int value))
             {
                 nucleotideDict[_char] = value + 1;
+            }
+            else
+            {
+                throw new ArgumentException();
             }
           
         }
