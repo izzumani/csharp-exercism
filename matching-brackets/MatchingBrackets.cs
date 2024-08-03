@@ -37,7 +37,7 @@ public static class MatchingBrackets
                     
                 }
             }
-            return penClosingBracket.Count > 0 ? false:true;
+            return penClosingBracket.Count ==0;
         }
         
             return false;
